@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
-import banner from '../../assets/images/banner1.jpg'
+import banner from "../../assets/images/banners/banner1.jpg";
+import "./Jumbotron.css";
 
 const Jumbotron = () => {
   return (
@@ -15,9 +16,7 @@ const Jumbotron = () => {
           marginTop: "-56px"
         }}
       >
-        <div className="container">
-          
-        </div>
+        <div className="container"></div>
       </div>
     </Fragment>
   );

@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
-import Jumbotron from "../../components/jumbotron/Jumbotron";
+import Jumbotron from "../../components/jumbotron/Jumbotron.js";
 import Header from "../../components/header/Header";
+import Categories from "../../components/categories/Categories.js";
 
 class Home extends Component {
   render() {
@@ -8,6 +9,7 @@ class Home extends Component {
       <Fragment>
         <Header />
         <Jumbotron />
+        <Categories />
       </Fragment>
     );
   }
