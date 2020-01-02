@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import banner from '../../assets/images/banner1.jpg'
+import banner from '../../assets/images/banners/DSC00730.jpg'
 
 const Jumbotron = () => {
   return (
