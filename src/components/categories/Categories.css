@@ -13,7 +13,3 @@
     -o-transition: opacity .5s ease-out;
     cursor: pointer;
 }
-
-.opacity {
-    opacity: 1;
-}
