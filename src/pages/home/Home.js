@@ -5,6 +5,7 @@ import Categories from "../../components/categories/Categories";
 import LatestArticle from "../../components/latestArticle/LatestArticle.js";
 import Banner from "../../components/banner/Banner.js";
 import Galeries from "../../components/galeries/Galeries.js";
+import Footer from "../../components/footer/Footer.js";
 
 
 class Home extends Component {
@@ -17,6 +18,7 @@ class Home extends Component {
         <LatestArticle />
         <Banner />
         <Galeries />
+        <Footer />
       </Fragment>
     );
   }
