@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import './header.css'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
         <div className="container">
           <NavbarBrand href="/">BAGINDA SITTO SIREGAR</NavbarBrand>
           <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
+          <Collapse isOpen={isOpen} navbar style={{zIndex:'9'}}>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="./">HOME</NavLink>
