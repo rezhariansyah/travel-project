@@ -13,43 +13,43 @@ const images = [
   {
     src: image1,
     thumbnail: image1,
-    thumbnailWidth: 320,
+    thumbnailWidth: 380,
     thumbnailHeight: 412
   },
   {
     src: image2,
     thumbnail: image2,
-    thumbnailWidth: 320,
+    thumbnailWidth: 380,
     thumbnailHeight: 212
   },
   {
     src: image3,
     thumbnail: image3,
-    thumbnailWidth: 320,
+    thumbnailWidth: 380,
     thumbnailHeight: 212
   },
   {
     src: image4,
     thumbnail: image4,
-    thumbnailWidth: 320,
+    thumbnailWidth: 380,
     thumbnailHeight: 412
   },
   {
     src: image5,
     thumbnail: image5,
-    thumbnailWidth: 320,
+    thumbnailWidth: 380,
     thumbnailHeight: 212
   },
   {
     src: image6,
     thumbnail: image6,
-    thumbnailWidth: 320,
+    thumbnailWidth: 380,
     thumbnailHeight: 212
   },
   {
     src: image7,
     thumbnail: image7,
-    thumbnailWidth: 320,
+    thumbnailWidth: 380,
     thumbnailHeight: 212
   }
 ];
@@ -75,7 +75,7 @@ class Galeries extends Component {
               </div>
             </div>
             <div className="row justify-content-center mx-auto">
-              <div className="col-8 text-center">
+              <div className="col-md-10 text-center">
                 <Gallery
                   images={images}
                   thumbnailStyle={this.styleSmall}
