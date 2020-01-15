@@ -19,30 +19,30 @@ const Header = () => {
     <div>
       <Navbar light expand="md">
         <div className="container">
-          <NavbarBrand href="/">BAGINDA SITTO SIREGAR</NavbarBrand>
+          <NavbarBrand href="#">BAGINDA SITTO SIREGAR</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar style={{zIndex:'9'}}>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="./">HOME</NavLink>
+                <NavLink href="#">HOME</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="./">
+                <NavLink href="#">
                   GALERIES
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="./">
+                <NavLink href="#">
                   BLOG
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="./">
+                <NavLink href="#">
                   CATEGORIES
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact">
+                <NavLink href="#">
                   CONTACT
                 </NavLink>
               </NavItem>
