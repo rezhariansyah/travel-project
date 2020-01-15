@@ -42,7 +42,7 @@ const Header = () => {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="./">
+                <NavLink href="/contact">
                   CONTACT
                 </NavLink>
               </NavItem>

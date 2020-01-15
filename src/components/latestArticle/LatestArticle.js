@@ -10,7 +10,6 @@ import image1 from "../../assets/images/articles/articles.jpg";
 import image2 from "../../assets/images/articles/image2.jpg";
 import image3 from "../../assets/images/articles/image3.jpg";
 import "./LatestArticle.css";
-import { Fade } from "react-awesome-reveal";
 
 const items = [
   {
@@ -70,39 +69,29 @@ const LatestArticle = props => {
   return (
     <Fragment>
       <div className="container">
-        <div className="row mt-5 mb-5">
-          <div className="col-12 text-center">
-            <Fade delay={100}>
-              <h1>LATEST ARTICLE</h1>
-            </Fade>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12 text-center">
-            <Fade delay={300}>
-              <Carousel
+        <div className="row justify-content-center mt-3">
+          <div
+            className="col-12 text-center"
+            style={{ padding: "0px", paddingRight: "0px" }}
+          >
+            <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+              <CarouselIndicators
+                items={items}
                 activeIndex={activeIndex}
-                next={next}
-                previous={previous}
-              >
-                <CarouselIndicators
-                  items={items}
-                  activeIndex={activeIndex}
-                  onClickHandler={goToIndex}
-                />
-                {slides}
-                <CarouselControl
-                  direction="prev"
-                  directionText="Previous"
-                  onClickHandler={previous}
-                />
-                <CarouselControl
-                  direction="next"
-                  directionText="Next"
-                  onClickHandler={next}
-                />
-              </Carousel>
-            </Fade>
+                onClickHandler={goToIndex}
+              />
+              {slides}
+              <CarouselControl
+                direction="prev"
+                directionText="Previous"
+                onClickHandler={previous}
+              />
+              <CarouselControl
+                direction="next"
+                directionText="Next"
+                onClickHandler={next}
+              />
+            </Carousel>
           </div>
         </div>
       </div>
