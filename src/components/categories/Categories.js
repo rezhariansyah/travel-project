@@ -41,9 +41,6 @@ const Categories = () => {
                     className="card-img-top img-responsive card-categories"
                     alt=""
                   />
-                  <div class="middle">
-                    <div class="text"></div>
-                  </div>
                   <div className="tagCategory">
                     <p style={{fontWeight:"bold", color:"white"}}>Travel</p>
                   </div>
@@ -56,9 +53,6 @@ const Categories = () => {
                     className="card-img-top img-responsive card-categories"
                     alt=""
                   />
-                  <div class="middle">
-                    <div class="healthCard"></div>
-                  </div>
                   <div className="tagCategory">
                     <p style={{fontWeight:"bold", color:"white"}}>Health</p>
                   </div>
@@ -71,9 +65,6 @@ const Categories = () => {
                     className="card-img-top img-responsive card-categories"
                     alt=""
                   />
-                  <div class="middle">
-                    <div class="tipsCard"></div>
-                  </div>
                   <div className="tagCategory">
                     <p style={{fontWeight:"bold", color:"white"}}>Tips</p>
                   </div>
